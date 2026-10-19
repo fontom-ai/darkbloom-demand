@@ -1,1 +1,43 @@
-<!doctype html><title>Darkbloom model demand tracker</title><p>Collecting data.</p>
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Darkbloom model demand tracker (unofficial)</title>
+<meta name="description" content="Which models actually receive requests on the Darkbloom idle-Mac inference network, per model and per hour. Unofficial, built from the public network statistics. Data collection has just started.">
+<link rel="canonical" href="https://fontom-ai.github.io/darkbloom-demand/"><meta property="og:title" content="Darkbloom model demand tracker (unofficial)">
+<meta property="og:description" content="Data collection has just started."><meta property="og:type" content="website"><meta property="og:url" content="https://fontom-ai.github.io/darkbloom-demand/">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "Dataset", "name": "Darkbloom per-model request demand (hourly)", "description": "Hourly requests, completion tokens, nodes offering and serving per model, aggregated from the public Darkbloom network statistics endpoint.", "url": "https://fontom-ai.github.io/darkbloom-demand/", "dateModified": "2026-10-19", "license": "https://creativecommons.org/licenses/by/4.0/", "distribution": [{"@type": "DataDownload", "encodingFormat": "text/csv", "contentUrl": "https://fontom-ai.github.io/darkbloom-demand/data.csv"}, {"@type": "DataDownload", "encodingFormat": "application/json", "contentUrl": "https://fontom-ai.github.io/darkbloom-demand/data.json"}]}</script>
+<style>:root{--bg:#fff;--fg:#1a1a1a;--mut:#666;--line:#e3e3e3;--acc:#2563eb;--bar:#2563eb;--card:#f7f8fa}
+@media (prefers-color-scheme:dark){:root{--bg:#111316;--fg:#e8e8e8;--mut:#9a9a9a;--line:#2a2d33;--acc:#7aa7ff;--bar:#7aa7ff;--card:#181b20}}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.6 -apple-system,BlinkMacSystemFont,"Segoe UI","Hiragino Sans","Noto Sans JP",sans-serif}
+main{max-width:980px;margin:0 auto;padding:24px 16px 64px}h1{font-size:1.7rem;line-height:1.25;margin:.2em 0 .4em}h2{font-size:1.2rem;margin:2em 0 .4em}
+.lead{color:var(--mut);margin:0 0 1em}.box{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:12px 16px;margin:1em 0}
+.sub{color:var(--mut);font-size:.9rem;margin:.2em 0 .8em}.muted{color:var(--mut)}.scroll{overflow-x:auto}
+table{border-collapse:collapse;width:100%;font-size:.92rem}th,td{padding:8px 10px;border-bottom:1px solid var(--line);text-align:left;white-space:nowrap}
+thead th{font-size:.8rem;color:var(--mut);font-weight:600}.num{text-align:right;font-variant-numeric:tabular-nums}
+tbody th{font-weight:600}.id{display:block;font-weight:400;font-size:.75rem;color:var(--mut)}.spark rect{fill:var(--bar)}
+a{color:var(--acc)}footer{margin-top:3em;color:var(--mut);font-size:.85rem}code{background:var(--card);padding:1px 5px;border-radius:4px}ul{padding-left:1.2em}</style></head><body><main>
+<h1>Darkbloom model demand tracker</h1>
+<p class="lead">Which models does the network actually send requests to? Hourly, per model. Data collection has just started.</p>
+<div class="box"><strong>Unofficial.</strong> This page is an independent project by a Darkbloom provider. It is not affiliated with, endorsed by or
+reviewed by Eigen Labs or Darkbloom. Figures come from the network's public statistics endpoint (<code>/v1/stats</code>) and are aggregated
+per model; no provider is identified. Not financial advice: what a Mac earns depends on its hardware, uptime and the model it hosts.</div>
+<h2>Last 24 hours</h2><p class="muted">Collecting data. The first hourly sample only sets a baseline; numbers appear from the second sample.</p>
+<h2>Last 7 days</h2><p class="muted">Collecting data. The first hourly sample only sets a baseline; numbers appear from the second sample.</p>
+<h2>How to read this</h2>
+<ul>
+<li><strong>Share of requests</strong> is the model's part of all requests that could be attributed to a model.</li>
+<li><strong>Requests per node per hour</strong> divides the model's requests by the number of nodes offering it: a rough proxy for what one more node offering the model could expect (the real share depends on the node's speed).</li>
+<li><strong>Output tokens per request</strong> shows how big a typical request is; it is not revenue (prompt tokens are not published).</li>
+</ul>
+<h2>Method and limits</h2>
+<ul>
+<li>Sampled once an hour. For each node the increase of its request and token counters since the previous sample is credited to its model: the only model it offers, or its current model when it offers several and that model did not change. Mixed nodes that switched model in between are skipped, so shares are an approximation (coverage is shown above).</li>
+<li>Counters restart when a node restarts; a decrease is ignored for that node and hour.</li>
+<li>"Nodes offering" counts connected nodes that advertise the model, whether or not they currently serve it.</li>
+<li>Demand follows the clock and the week: a 24-hour window shows one day only.</li>
+</ul>
+<h2>Data</h2>
+<p><a href="data.json">data.json</a> (current windows) · <a href="data.csv">data.csv</a> (hourly rows, last 14 days). Free to reuse with attribution (CC BY 4.0).</p>
+<h2>日本語の要約</h2>
+<p>遊休Mac向け推論ネットワーク「Darkbloom」で、どのモデルに実際にリクエストが来ているかを毎時集計した非公式のページです。公開されているネットワーク統計から、モデルごとの合計だけを出しています（個々のノードは特定しません）。収益はMacの性能・稼働時間・載せるモデルで変わります。投資助言ではありません。</p>
+<footer>Updated 2026-10-19 15:36 UTC. Source: <code>https://api.darkbloom.dev/v1/stats</code>. Independent; not affiliated with Eigen Labs or Darkbloom.</footer>
+</main></body></html>

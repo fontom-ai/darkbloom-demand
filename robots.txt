@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://fontom-ai.github.io/darkbloom-demand/sitemap.xml

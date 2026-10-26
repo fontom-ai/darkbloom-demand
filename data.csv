@@ -2234,3 +2234,17 @@ hour_utc,model,nodes_offering,nodes_serving,requests,completion_tokens
 2026-10-26T20:00Z,qwen3.5-35b-a3b,222,2,6,1796
 2026-10-26T20:00Z,qwen3.6-35b-a3b-vl-mtp-mxfp8,505,0,690,70954
 2026-10-26T20:00Z,ternary-bonsai-2-27b,159,0,0,0
+2026-10-26T21:00Z,EigenLabs/Qwen3.8-27B-4bit-mtp,87,2,358,261563
+2026-10-26T21:00Z,EigenLabs/Ternary-Bonsai-2-9B-MLX-2bit,89,0,12,2059
+2026-10-26T21:00Z,Qwen3.5-9B,275,62,14327,3083666
+2026-10-26T21:00Z,ALL (network total),1117,187,272390,42158573
+2026-10-26T21:00Z,gemma-4-26b-8bit,17,0,0,0
+2026-10-26T21:00Z,gemma-4-26b-qat-4bit,568,82,120610,13695611
+2026-10-26T21:00Z,glm-5.3-flash,2,1,225,197924
+2026-10-26T21:00Z,gpt-oss-20b,445,28,14392,5341696
+2026-10-26T21:00Z,mimo-v2.6-flash-mopd,14,1,95,14695
+2026-10-26T21:00Z,nvidia-nemotron-3.5-lightning,149,2,104,179447
+2026-10-26T21:00Z,nvidia-nemotron-3.5-super,23,5,461,525664
+2026-10-26T21:00Z,qwen3.5-35b-a3b,226,2,303,676075
+2026-10-26T21:00Z,qwen3.6-35b-a3b-vl-mtp-mxfp8,512,2,89,59778
+2026-10-26T21:00Z,ternary-bonsai-2-27b,155,0,39,19458

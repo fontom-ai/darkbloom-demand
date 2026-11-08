@@ -1,18 +1,4 @@
 hour_utc,model,nodes_offering,nodes_serving,requests,completion_tokens
-2026-10-25T20:00Z,EigenLabs/Qwen3.8-27B-4bit-mtp,110,7,0,0
-2026-10-25T20:00Z,EigenLabs/Ternary-Bonsai-2-9B-MLX-2bit,87,0,0,0
-2026-10-25T20:00Z,Qwen3.5-9B,286,77,0,0
-2026-10-25T20:00Z,ALL (network total),1151,165,160140,37296404
-2026-10-25T20:00Z,gemma-4-26b-8bit,15,0,0,0
-2026-10-25T20:00Z,gemma-4-26b-qat-4bit,556,34,0,0
-2026-10-25T20:00Z,glm-5.3-flash,6,5,0,0
-2026-10-25T20:00Z,gpt-oss-20b,454,31,0,0
-2026-10-25T20:00Z,mimo-v2.6-flash-mopd,14,1,0,0
-2026-10-25T20:00Z,nvidia-nemotron-3.5-lightning,152,3,0,0
-2026-10-25T20:00Z,nvidia-nemotron-3.5-super,28,2,0,0
-2026-10-25T20:00Z,qwen3.5-35b-a3b,236,0,0,0
-2026-10-25T20:00Z,qwen3.6-35b-a3b-vl-mtp-mxfp8,528,2,0,0
-2026-10-25T20:00Z,ternary-bonsai-2-27b,160,3,0,0
 2026-10-25T21:00Z,EigenLabs/Qwen3.8-27B-4bit-mtp,108,2,1864,508412
 2026-10-25T21:00Z,EigenLabs/Ternary-Bonsai-2-9B-MLX-2bit,86,1,5,81815
 2026-10-25T21:00Z,Qwen3.5-9B,289,48,3575,5326245
@@ -4073,3 +4059,18 @@ hour_utc,model,nodes_offering,nodes_serving,requests,completion_tokens
 2026-11-08T20:00Z,qwen3.5-35b-a3b,221,0,586,109168
 2026-11-08T20:00Z,qwen3.6-35b-a3b-vl-mtp-mxfp8,470,2,584,321564
 2026-11-08T20:00Z,ternary-bonsai-2-27b,154,7,240,58182
+2026-11-08T21:00Z,EigenLabs/Qwen3.8-27B-4bit-mtp,114,0,28,14895
+2026-11-08T21:00Z,EigenLabs/Ternary-Bonsai-2-9B-MLX-2bit,123,7,1639,425698
+2026-11-08T21:00Z,Qwen3.5-9B,272,0,445,103825
+2026-11-08T21:00Z,ALL (network total),1108,73,108580,33051955
+2026-11-08T21:00Z,gemma-4-26b,2,0,2,10
+2026-11-08T21:00Z,gemma-4-26b-8bit,13,0,0,0
+2026-11-08T21:00Z,gemma-4-26b-qat-4bit,604,42,79416,20985588
+2026-11-08T21:00Z,glm-5.3-flash,5,1,70,71468
+2026-11-08T21:00Z,gpt-oss-20b,442,2,1894,744240
+2026-11-08T21:00Z,mimo-v2.6-flash-mopd,16,3,1580,953340
+2026-11-08T21:00Z,nvidia-nemotron-3.5-lightning,165,7,524,859648
+2026-11-08T21:00Z,nvidia-nemotron-3.5-super,52,7,226,258741
+2026-11-08T21:00Z,qwen3.5-35b-a3b,218,0,924,171999
+2026-11-08T21:00Z,qwen3.6-35b-a3b-vl-mtp-mxfp8,471,0,356,173671
+2026-11-08T21:00Z,ternary-bonsai-2-27b,154,4,402,177951

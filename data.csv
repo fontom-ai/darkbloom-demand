@@ -1,18 +1,4 @@
 hour_utc,model,nodes_offering,nodes_serving,requests,completion_tokens
-2026-10-28T05:00Z,EigenLabs/Qwen3.8-27B-4bit-mtp,115,2,548,443691
-2026-10-28T05:00Z,EigenLabs/Ternary-Bonsai-2-9B-MLX-2bit,99,4,233,232641
-2026-10-28T05:00Z,Qwen3.5-9B,279,24,2925,2380426
-2026-10-28T05:00Z,ALL (network total),1094,248,251621,65234054
-2026-10-28T05:00Z,gemma-4-26b-8bit,17,0,0,0
-2026-10-28T05:00Z,gemma-4-26b-qat-4bit,534,76,121207,18875209
-2026-10-28T05:00Z,glm-5.3-flash,6,2,458,388107
-2026-10-28T05:00Z,gpt-oss-20b,433,37,18579,12735649
-2026-10-28T05:00Z,mimo-v2.6-flash-mopd,15,0,119,48332
-2026-10-28T05:00Z,nvidia-nemotron-3.5-lightning,175,43,41652,8963327
-2026-10-28T05:00Z,nvidia-nemotron-3.5-super,40,34,13961,5522631
-2026-10-28T05:00Z,qwen3.5-35b-a3b,227,16,2637,1993212
-2026-10-28T05:00Z,qwen3.6-35b-a3b-vl-mtp-mxfp8,482,4,1611,255983
-2026-10-28T05:00Z,ternary-bonsai-2-27b,157,6,122,78821
 2026-10-28T06:00Z,EigenLabs/Qwen3.8-27B-4bit-mtp,117,3,364,197619
 2026-10-28T06:00Z,EigenLabs/Ternary-Bonsai-2-9B-MLX-2bit,96,11,238,103335
 2026-10-28T06:00Z,Qwen3.5-9B,277,9,1098,2318533
@@ -4270,3 +4256,18 @@ hour_utc,model,nodes_offering,nodes_serving,requests,completion_tokens
 2026-11-11T05:00Z,qwen3.5-35b-a3b,223,0,135,68461
 2026-11-11T05:00Z,qwen3.6-35b-a3b-vl-mtp-mxfp8,490,12,4516,1222549
 2026-11-11T05:00Z,ternary-bonsai-2-27b,167,0,5,954
+2026-11-11T06:00Z,EigenLabs/Qwen3.8-27B-4bit-mtp,146,11,0,0
+2026-11-11T06:00Z,EigenLabs/Ternary-Bonsai-2-9B-MLX-2bit,127,2,0,0
+2026-11-11T06:00Z,Qwen3.5-9B,285,22,0,0
+2026-11-11T06:00Z,ALL (network total),1122,130,155655,38555655
+2026-11-11T06:00Z,gemma-4-26b,2,0,0,0
+2026-11-11T06:00Z,gemma-4-26b-8bit,13,0,0,0
+2026-11-11T06:00Z,gemma-4-26b-qat-4bit,609,30,0,0
+2026-11-11T06:00Z,glm-5.3-flash,5,0,0,0
+2026-11-11T06:00Z,gpt-oss-20b,450,44,0,0
+2026-11-11T06:00Z,mimo-v2.6-flash-mopd,14,4,0,0
+2026-11-11T06:00Z,nvidia-nemotron-3.5-lightning,173,1,0,0
+2026-11-11T06:00Z,nvidia-nemotron-3.5-super,51,1,0,0
+2026-11-11T06:00Z,qwen3.5-35b-a3b,228,13,0,0
+2026-11-11T06:00Z,qwen3.6-35b-a3b-vl-mtp-mxfp8,488,0,0,0
+2026-11-11T06:00Z,ternary-bonsai-2-27b,166,2,0,0

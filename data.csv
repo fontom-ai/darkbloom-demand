@@ -1,19 +1,4 @@
 hour_utc,model,nodes_offering,nodes_serving,requests,completion_tokens
-2026-11-11T06:00Z,EigenLabs/Qwen3.8-27B-4bit-mtp,146,11,0,0
-2026-11-11T06:00Z,EigenLabs/Ternary-Bonsai-2-9B-MLX-2bit,127,2,0,0
-2026-11-11T06:00Z,Qwen3.5-9B,285,22,0,0
-2026-11-11T06:00Z,ALL (network total),1122,130,155655,38555655
-2026-11-11T06:00Z,gemma-4-26b,2,0,0,0
-2026-11-11T06:00Z,gemma-4-26b-8bit,13,0,0,0
-2026-11-11T06:00Z,gemma-4-26b-qat-4bit,609,30,0,0
-2026-11-11T06:00Z,glm-5.3-flash,5,0,0,0
-2026-11-11T06:00Z,gpt-oss-20b,450,44,0,0
-2026-11-11T06:00Z,mimo-v2.6-flash-mopd,14,4,0,0
-2026-11-11T06:00Z,nvidia-nemotron-3.5-lightning,173,1,0,0
-2026-11-11T06:00Z,nvidia-nemotron-3.5-super,51,1,0,0
-2026-11-11T06:00Z,qwen3.5-35b-a3b,228,13,0,0
-2026-11-11T06:00Z,qwen3.6-35b-a3b-vl-mtp-mxfp8,488,0,0,0
-2026-11-11T06:00Z,ternary-bonsai-2-27b,166,2,0,0
 2026-11-11T07:00Z,EigenLabs/Qwen3.8-27B-4bit-mtp,147,13,1729,654784
 2026-11-11T07:00Z,EigenLabs/Ternary-Bonsai-2-9B-MLX-2bit,129,3,4,5072
 2026-11-11T07:00Z,Qwen3.5-9B,290,19,6716,2337418
@@ -4606,3 +4591,18 @@ hour_utc,model,nodes_offering,nodes_serving,requests,completion_tokens
 2026-11-25T06:00Z,qwen3.6-35b-a3b-vl-mtp-mxfp8,532,23,76319,11133505
 2026-11-25T06:00Z,ternary-bonsai-2-27b,211,1,11,685
 2026-11-25T06:00Z,thinkingmachines/Inkling-2-Mini,20,0,0,0
+2026-11-25T07:00Z,EigenLabs/Qwen3.8-27B-4bit-mtp,137,23,177,22393
+2026-11-25T07:00Z,EigenLabs/Ternary-Bonsai-2-9B-MLX-2bit,140,0,181,40833
+2026-11-25T07:00Z,Qwen3.5-9B,271,2,41,28549
+2026-11-25T07:00Z,ALL (network total),1085,157,312045,53001988
+2026-11-25T07:00Z,gemma-4-26b-8bit,10,0,0,0
+2026-11-25T07:00Z,gemma-4-26b-qat-4bit,559,45,30820,3015381
+2026-11-25T07:00Z,glm-5.3-flash,11,0,47,11499
+2026-11-25T07:00Z,gpt-oss-20b,415,27,6279,4365228
+2026-11-25T07:00Z,mimo-v2.6-flash-mopd,26,18,1764,1020422
+2026-11-25T07:00Z,nvidia-nemotron-3.5-lightning,151,2,4,2323
+2026-11-25T07:00Z,nvidia-nemotron-3.5-super,50,13,3083,71915
+2026-11-25T07:00Z,qwen3.5-35b-a3b,238,4,128,164044
+2026-11-25T07:00Z,qwen3.6-35b-a3b-vl-mtp-mxfp8,514,21,13785,1341874
+2026-11-25T07:00Z,ternary-bonsai-2-27b,205,2,0,0
+2026-11-25T07:00Z,thinkingmachines/Inkling-2-Mini,17,0,0,0

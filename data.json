@@ -1,147 +1,147 @@
 {
- "generated_at": "2026-11-25T07:29:22Z",
+ "generated_at": "2026-11-25T08:29:52Z",
  "windows": {
   "24h": {
    "network": {
-    "requests": 10195059,
-    "tokens": 1450935046,
+    "requests": 10206982,
+    "tokens": 1417221450,
     "nodes": 1115,
-    "serving": 200,
+    "serving": 194,
     "samples": 24,
-    "first": 1795508272,
-    "last": 1795591762,
-    "coverage": 0.5605661526823925
+    "first": 1795511902,
+    "last": 1795595392,
+    "coverage": 0.5350408181380157
    },
    "models": [
     {
      "model": "gemma-4-26b-qat-4bit",
-     "requests": 2544940,
-     "tokens": 380008628,
-     "share": 0.44530844679925913,
-     "nodes": 594,
-     "serving": 66,
-     "per_node": 178.5922807017544,
+     "requests": 2403432,
+     "tokens": 351805376,
+     "share": 0.4400961555364143,
+     "nodes": 593,
+     "serving": 63,
+     "per_node": 168.81590222659267,
      "samples": 24
     },
     {
      "model": "qwen3.6-35b-a3b-vl-mtp-mxfp8",
-     "requests": 1462801,
-     "tokens": 123303415,
-     "share": 0.2559579562922517,
+     "requests": 1397768,
+     "tokens": 118602299,
+     "share": 0.25594746309936073,
      "nodes": 528,
-     "serving": 27,
-     "per_node": 115.49036791410073,
+     "serving": 26,
+     "per_node": 110.20799495387526,
      "samples": 24
     },
     {
      "model": "EigenLabs/Qwen3.8-27B-4bit-mtp",
-     "requests": 932921,
-     "tokens": 53013238,
-     "share": 0.16324062708606554,
-     "nodes": 143,
-     "serving": 34,
-     "per_node": 271.119151409474,
+     "requests": 921128,
+     "tokens": 46954351,
+     "share": 0.16866917456243663,
+     "nodes": 144,
+     "serving": 33,
+     "per_node": 266.83893395133254,
      "samples": 24
     },
     {
      "model": "gpt-oss-20b",
-     "requests": 619086,
-     "tokens": 216408557,
-     "share": 0.10832641441258582,
-     "nodes": 417,
-     "serving": 44,
-     "per_node": 61.84057536709619,
+     "requests": 593385,
+     "tokens": 207026128,
+     "share": 0.10865564628122418,
+     "nodes": 418,
+     "serving": 42,
+     "per_node": 59.2023346303502,
      "samples": 24
     },
     {
      "model": "nvidia-nemotron-3.5-super",
-     "requests": 47170,
-     "tokens": 4046621,
-     "share": 0.008253711064119804,
+     "requests": 46105,
+     "tokens": 3725010,
+     "share": 0.008442357949385039,
      "nodes": 54,
-     "serving": 5,
-     "per_node": 36.45285935085008,
+     "serving": 4,
+     "per_node": 35.65738592420727,
      "samples": 24
     },
     {
      "model": "mimo-v2.6-flash-mopd",
-     "requests": 40344,
-     "tokens": 18810167,
-     "share": 0.00705931140917637,
+     "requests": 38905,
+     "tokens": 18296241,
+     "share": 0.007123954799280445,
      "nodes": 28,
      "serving": 11,
-     "per_node": 60.485757121439285,
+     "per_node": 58.59186746987951,
      "samples": 24
     },
     {
      "model": "qwen3.5-35b-a3b",
-     "requests": 36848,
-     "tokens": 15344117,
-     "share": 0.006447588409808916,
-     "nodes": 255,
+     "requests": 31144,
+     "tokens": 11613227,
+     "share": 0.005702826070396868,
+     "nodes": 256,
      "serving": 7,
-     "per_node": 6.011092985318108,
+     "per_node": 5.076446617766911,
      "samples": 24
     },
     {
      "model": "Qwen3.5-9B",
-     "requests": 13676,
-     "tokens": 12730335,
-     "share": 0.0023929987812784065,
+     "requests": 13104,
+     "tokens": 12551649,
+     "share": 0.00239949373319036,
      "nodes": 284,
      "serving": 4,
-     "per_node": 2.005866823115283,
+     "per_node": 1.9236641221374047,
      "samples": 24
     },
     {
      "model": "ternary-bonsai-2-27b",
-     "requests": 5686,
-     "tokens": 480424,
-     "share": 0.000994924763845351,
+     "requests": 4950,
+     "tokens": 449692,
+     "share": 0.0009064021656969079,
      "nodes": 218,
      "serving": 0,
-     "per_node": 1.0844936105283234,
+     "per_node": 0.945197632232194,
      "samples": 24
     },
     {
      "model": "glm-5.3-flash",
-     "requests": 4416,
-     "tokens": 4154002,
-     "share": 0.0007727027360431006,
+     "requests": 4189,
+     "tokens": 3928513,
+     "share": 0.0007670542771927974,
      "nodes": 10,
      "serving": 2,
-     "per_node": 17.734939759036145,
+     "per_node": 16.756,
      "samples": 24
     },
     {
      "model": "nvidia-nemotron-3.5-lightning",
-     "requests": 3933,
-     "tokens": 978409,
-     "share": 0.0006881883742883865,
+     "requests": 3925,
+     "tokens": 977373,
+     "share": 0.000718712828355629,
      "nodes": 155,
      "serving": 1,
-     "per_node": 1.0572580645161291,
+     "per_node": 1.0522788203753353,
      "samples": 24
     },
     {
      "model": "EigenLabs/Ternary-Bonsai-2-9B-MLX-2bit",
-     "requests": 3145,
-     "tokens": 625725,
-     "share": 0.0005503057302662027,
+     "requests": 3078,
+     "tokens": 608974,
+     "share": 0.0005636173466697136,
      "nodes": 147,
      "serving": 1,
-     "per_node": 0.8934659090909092,
+     "per_node": 0.8744318181818183,
      "samples": 24
     },
     {
      "model": "thinkingmachines/Inkling-2-Mini",
      "requests": 39,
      "tokens": 7582,
-     "share": 6.824141011250209e-06,
-     "nodes": 15,
+     "share": 7.141350396399881e-06,
+     "nodes": 16,
      "serving": 0,
-     "per_node": 0.5131578947368421,
-     "samples": 5
+     "per_node": 0.39795918367346944,
+     "samples": 6
     },
     {
      "model": "gemma-4-26b-8bit",
@@ -157,14 +157,14 @@
   },
   "7d": {
    "network": {
-    "requests": 57077202,
-    "tokens": 12049430759,
+    "requests": 57330704,
+    "tokens": 12068388026,
     "nodes": 1119,
     "serving": 216,
     "samples": 159,
-    "first": 1794989064,
-    "last": 1795591762,
-    "coverage": 0.6120258838196028
+    "first": 1794992692,
+    "last": 1795595392,
+    "coverage": 0.6093196587992361
    },
    "models": [
     {
@@ -174,7 +174,7 @@
      "share": 0.6668945523144845,
      "nodes": 587,
      "serving": 108,
-     "per_node": 249.58960348835964,
+     "per_node": 249.5708868082189,
      "samples": 159
     },
     {
@@ -184,7 +184,7 @@
      "share": 0.1485113457366982,
      "nodes": 520,
      "serving": 21,
-     "per_node": 62.71343261931241,
+     "per_node": 62.68994018488308,
      "samples": 159
     },
     {
@@ -194,7 +194,7 @@
      "share": 0.1126067033132972,
      "nodes": 432,
      "serving": 35,
-     "per_node": 57.30938679176561,
+     "per_node": 57.333610260894915,
      "samples": 159
     },
     {
@@ -204,7 +204,7 @@
      "share": 0.03779092527136088,
      "nodes": 142,
      "serving": 16,
-     "per_node": 58.55058322614982,
+     "per_node": 58.4986927814951,
      "samples": 159
     },
     {
@@ -214,7 +214,7 @@
      "share": 0.01023470112909886,
      "nodes": 310,
      "serving": 6,
-     "per_node": 7.250577976069763,
+     "per_node": 7.261327863192314,
      "samples": 159
     },
     {
@@ -224,7 +224,7 @@
      "share": 0.008904515751347769,
      "nodes": 244,
      "serving": 9,
-     "per_node": 8.021119133574008,
+     "per_node": 8.017604453952625,
      "samples": 159
     },
     {
@@ -234,7 +234,7 @@
      "share": 0.006600487079092741,
      "nodes": 29,
      "serving": 10,
-     "per_node": 49.60692771084337,
+     "per_node": 49.54297378599055,
      "samples": 159
     },
     {
@@ -244,7 +244,7 @@
      "share": 0.003279217410036005,
      "nodes": 10,
      "serving": 3,
-     "per_node": 75.21470781352593,
+     "per_node": 75.11606557377048,
      "samples": 159
     },
     {
@@ -254,7 +254,7 @@
      "share": 0.0027415267489152365,
      "nodes": 55,
      "serving": 2,
-     "per_node": 11.018062586286241,
+     "per_node": 11.028212805158914,
      "samples": 159
     },
     {
@@ -264,7 +264,7 @@
      "share": 0.0009694061943349682,
      "nodes": 163,
      "serving": 2,
-     "per_node": 1.3060783708731871,
+     "per_node": 1.3066831301126718,
      "samples": 159
     },
     {
@@ -274,7 +274,7 @@
      "share": 0.0009148728019357207,
      "nodes": 147,
      "serving": 2,
-     "per_node": 1.3685179634308224,
+     "per_node": 1.3688110330649306,
      "samples": 159
     },
     {
@@ -284,7 +284,7 @@
      "share": 0.0005504866854790172,
      "nodes": 217,
      "serving": 1,
-     "per_node": 0.5572782334019184,
+     "per_node": 0.5571652083212609,
      "samples": 159
     },
     {
@@ -292,10 +292,10 @@
      "requests": 39,
      "tokens": 7582,
      "share": 1.1164316554176634e-06,
-     "nodes": 15,
+     "nodes": 16,
      "serving": 0,
-     "per_node": 0.5131578947368421,
-     "samples": 5
+     "per_node": 0.39795918367346944,
+     "samples": 6
     },
     {
      "model": "gemma-4-26b-8bit",
@@ -304,7 +304,7 @@
      "share": 1.4313226351508506e-07,
      "nodes": 12,
      "serving": 0,
-     "per_node": 0.0026896180742334587,
+     "per_node": 0.0026939655172413795,
      "samples": 159
     },
     {
